@@ -1,0 +1,43 @@
+.container{
+    display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 130px 280px 100px 80px;
+  grid-template-areas: 
+    "header header header"
+    "main sidebar sidebar"
+    "main sidebar sidebar"
+    "footer footer footer";
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 1000px;
+    background-image: linear-gradient(to right top, #d16b86, #ce74a0, #c47fb8, #b58bcc, #a298db, #94a3e6, #86aded, #77b7f2, #6cc2f7, #63ccfb, #5ed6fc, #5fe0fb);
+}
+
+.item-a {
+    grid-area: header;
+  }
+  .item-b {
+    grid-area: main;
+  }
+  .item-c {
+    grid-area: sidebar;
+  }
+  .item-d {
+    grid-area: footer;
+  }
+  .item-e {
+    grid-area: small;
+  }
+  .item{
+    border: 2px solid #444;
+  }
+
+  #main-image{
+      width: 350px;
+      height: 350px;
+  }
+
+  .choise-product{
+      width: 60px;
+      height: 60px;
+  }

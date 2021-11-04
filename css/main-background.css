@@ -1,0 +1,8 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: linear-gradient(to right top, #d47de7, #bf7ceb, #a87cee, #8e7bf0, #6f7bf1, #5589f9, #3696fd, #00a2ff, #00bcff, #00d3ff, #00e8fb, #5ffbf1);
+    background-attachment: fixed;
+}

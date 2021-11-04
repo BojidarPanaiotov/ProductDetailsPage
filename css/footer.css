@@ -1,0 +1,11 @@
+.tag{
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    padding: 10px;
+}
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}

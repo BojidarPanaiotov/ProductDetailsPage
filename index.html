@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main-background.css">
+    <link rel="stylesheet" href="./css/product-header.css">
+    <link rel="stylesheet" href="./css/content.css">
+    <link rel="stylesheet" href="./css/carousel.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/container.css">
+    <link rel="stylesheet" href="./css/media-query-mobile.css">
+    <!-- CDN -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Man's Japanese Hoodie</title>
+</head>
+<body>
+    <!-- Main container/root element -->
+    <div class="container">
+        <!-- Header -->
+        <div class="item item-a">
+            <img id="logo" src="./images/logo_size_invert.jpg" alt="">
+            <h1 id="product-header"><i class="fas fa-shopping-cart" id="cart-icon"></i> Dark Mamba Hoodie</h1>
+            <p id="product-id">- Product ID: 381923</p>
+        </div>
+        <!-- Carousel  -->
+        <div class="item item-b">
+          <div class="slideshow-container">
+
+            <div class="mySlides fade" id="product-images">
+              <img src="https://bestchineseproducts.com/wp-content/uploads/2019/08/two-tone-colour-hoodie.png" style="width:100%">
+            </div>
+  
+            <div class="mySlides fade">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy1hS_p1lvVUfOzmGhzmnVpqtHWrkUY-hrP4XGzJ6dWqQucz7Bs9QRwyDcHCTCV3v5zF0&usqp=CAU" style="width:100%">
+            </div>
+  
+            <div class="mySlides fade">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0_Qer0jIvvYV6zCCd46foqs_yHQ53WZcnAAS2G92VH94ijGlyixNM1-WIhlUjgRFWci8&usqp=CAU" style="width:100%">
+            </div>
+  
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+        <br>
+  
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div> 
+        </div>
+        <!-- Product Details -->
+        <div class="item item-c">
+            <div class="details-wrapper">
+                <div class="product-price" id="product-price-details">Price: 45.99$</div>
+                <span class="product-text">Select color:</span>
+                <button class="color-btn black"></button>
+                <button class="color-btn red"></button>
+                <button class="color-btn white"></button>
+                <div class="stock-info">The product is Available</div>
+                <div id="product-description-header">Product Description</div>
+                <p class="product-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum ipsam obcaecati hic nostrum commodi delectus quidem. Ratione repellendus odit quae neque molestiae iusto recusandae asperiores fugiat? Officia sint architecto, aliquid et amet laudantium eveniet exercitationem quam. Corrupti ut sapiente nulla. Aliquam ab ex minus autem? Voluptatum maiores consequuntur quisquam fuga harum similique, minima eligendi.</p>
+            </div>
+        </div>
+        <!-- Footer -->
+        <div class="item item-d footer">
+                <a class="tag" href="#product-header">Product Name </a>
+                <span class="separator">|</span>
+                <a class="tag" href="#cart-icon">Add to Cart </a>
+                <span class="separator">|</span>
+                <a class="tag" href="#product-images">Images </a>
+        </div>
+    </div>
+  <script src="./js/carousel.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+</html>
